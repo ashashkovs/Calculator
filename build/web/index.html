@@ -1,0 +1,29 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" type='text/css' href="style.css"/>
+    <title>Калькулятор</title>
+</head>
+<body>
+
+<h1 style="text-align:center">Калькулятор</h1>
+<div class='form-container'>
+    <form method="POST" action="calc">
+        <input id='n1' type="text" name="n1"/>
+        <input id='n2' type="text" name="n2"/>
+        <br/>
+        <div>
+            <label>Выберите действие над числами </label>
+            <br/>
+            <div class='buttons'>
+                <input name="plus" type="submit" value="+"/>
+                <input name="minus" type="submit" value="-"/>
+                <input name="divide" type="submit" value="/"/>
+                <input name="multiply" type="submit" value="*"/>
+            </div>
+        </div>
+    </form>
+</div>
+</body>
+</html>
